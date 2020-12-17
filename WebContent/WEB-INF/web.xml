@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>contextProduct-project</display-name>
+  <welcome-file-list>
+    <welcome-file>product.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  <param-name>OfferMessage</param-name>
+  <param-value>New Year Sale</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>OfferPrice</param-name>
+  <param-value>80 % offer</param-value>
+  </context-param>
+  
+<!--   <context-param> -->
+<!--   <param-name>offerMsg</param-name> -->
+<!--   <param-value>New Year Double Damaka</param-value> -->
+<!--   </context-param> -->
+<!--   <context-param> -->
+<!--   <param-name>offer </param-name> -->
+<!--   <param-value> Buy one get one </param-value> -->
+<!--   </context-param> -->
+  
+<!--   <context-param> -->
+<!--   <param-name> OfferMsg</param-name> -->
+<!--   <param-value> New Year Big Sale </param-value> -->
+<!--   </context-param> -->
+  
+<!--   <context-param> -->
+<!--   <param-name>  NewYearOffer </param-name> -->
+<!--   <param-value> Buy one get one </param-value> -->
+<!--   </context-param> -->
+</web-app>
